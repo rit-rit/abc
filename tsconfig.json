@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "declaration": false,
+    "noEmitOnError": true
+  },
+  "exclude": ["node_modules"]
+}

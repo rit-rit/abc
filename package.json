@@ -1,0 +1,16 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "watch": "tsc --watch src/ts/main.ts --outDir dist",
+    "build": "tsc src/ts/main.ts --outDir dist"
+  },
+  "author": "Tatamo",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "typescript": "^2.6.2"
+  }
+}
